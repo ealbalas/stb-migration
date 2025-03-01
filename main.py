@@ -61,8 +61,8 @@ def analyze_files(source_file, target_file, mapping_file):
 
 if __name__ == "__main__":
     # File paths
-    source_file = "ns24-00001_nt.xlsx"  # Source file with tests
-    target_file = "ns24-0001export.xlsx"  # Target file to check against
-    mapping_file = "NVT_LW mapping.xlsx"  # Mapping between source and target
+    source_file = "SOURCE"  
+    target_file = "TARGET"
+    mapping_file = "MAPPING"  
     
     analyze_files(source_file, target_file, mapping_file)
